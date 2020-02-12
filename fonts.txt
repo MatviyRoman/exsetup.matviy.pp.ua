@@ -1,0 +1,101 @@
+color: #535353;
+font-family: "Open Sans";
+font-size: 16px;
+font-weight: 700;
+// Text style for "Устанавлив"
+font-family: "Open Sans";
+font-weight: 400;
+// Text style for "программы"
+font-family: "Open Sans - Semibold";
+font-weight: 600;
+
+font-family: "Open Sans";
+font-size: 16px;
+font-weight: 400;
+// Text style for "популярные"
+font-family: "Open Sans - Bold";
+font-weight: 700;
+
+font-family: "Open Sans";
+font-size: 26px;
+font-weight: 700;
+
+color: #535353;
+font-family: "Open Sans";
+font-size: 16px;
+font-weight: 400;
+// Text style for "Шаг 1"
+font-family: "Open Sans - Bold";
+font-weight: 700;
+
+color: #222453;
+font-family: "Open Sans";
+font-size: 14px;
+font-weight: 700;
+line-height: 17px;
+
+color: #237a88;
+font-family: "Open Sans";
+font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+
+color: #247a89;
+font-family: "Open Sans";
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+
+color: #ffffff;
+font-family: "Open Sans";
+font-size: 54px;
+font-weight: 700;
+line-height: 17px;
+
+color: #535353;
+font-family: "Open Sans";
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+
+color: #535353;
+font-family: "Open Sans";
+font-size: 26px;
+font-weight: 700;
+
+color: #222452;
+font-family: "Open Sans";
+font-size: 18px;
+font-weight: 700;
+line-height: 22px;
+
+font-family: "Open Sans";
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+// Text style for "И"
+text-transform: lowercase;
+
+color: #535353;
+font-family: "Open Sans";
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+
+color: #237a8a;
+font-family: "Open Sans";
+font-size: 14px;
+font-weight: 700;
+line-height: 18px;
+// Text style for "Посмотреть"
+text-transform: uppercase;
+
+color: #237a8a;
+font-family: "Open Sans";
+font-size: 14px;
+font-weight: 700;
+line-height: 30px;
+// Text style for "Copyright"
+color: #535353;
+font-family: "Open Sans";
+font-weight: 400;
