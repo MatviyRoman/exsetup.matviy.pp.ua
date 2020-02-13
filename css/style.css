@@ -97,6 +97,7 @@ span {
 .top .container {
   background-image: -webkit-gradient(linear, right top, left top, from(#188c9b), to(#2e3364));
   background-image: linear-gradient(270deg, #188c9b 0%, #2e3364 100%);
+  overflow: hidden;
 }
 
 .top .container .inner_container {
@@ -122,6 +123,20 @@ span {
 .top .container .inner_container .text span {
   font-family: "Open Sans";
   font-weight: 700;
+}
+
+.top .container .inner_container .text span:nth-child(2) {
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.top .container .inner_container .icons {
+  max-width: 525px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
 }
 
 .top .container .inner_container .icons img + img {
@@ -247,7 +262,14 @@ span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
+  max-height: 51px;
+}
+
+.information .container .inner_container .left .box ul li p span.number {
+  position: relative;
+  top: -4px;
+  left: 13px;
 }
 
 .information .container .inner_container .left .box ul li + li {
@@ -272,6 +294,7 @@ span {
   line-height: 17px;
   max-width: 267px;
   margin-left: 25px;
+  height: 17px;
 }
 
 .information .container .inner_container .left .box ul li img + img {
@@ -290,7 +313,8 @@ span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
+  max-height: 51px;
 }
 
 .information .container .inner_container .right .box ul li + li {
@@ -321,9 +345,9 @@ span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding-top: 40px;
   padding-bottom: 40px;
 }
@@ -363,6 +387,7 @@ span {
   text-align: center;
   position: absolute;
   top: 50%;
+  left: 38%;
   -webkit-transform: translateY(-30%);
           transform: translateY(-30%);
   text-align: center;
@@ -375,7 +400,6 @@ span {
   font-size: 54px;
   font-weight: 800;
   line-height: 17px;
-  margin-bottom: 14px;
 }
 
 .download .container .inner_container .left a .text p + p {
@@ -386,6 +410,8 @@ span {
   font-weight: 700;
   line-height: 17px;
   text-transform: uppercase;
+  padding-top: 10px;
+  margin-top: 13px;
 }
 
 .download .container .inner_container .right {
@@ -399,6 +425,8 @@ span {
 
 .download .container .inner_container .right .block {
   max-width: 267px;
+  position: relative;
+  top: 11px;
 }
 
 .download .container .inner_container .right .block .img {
@@ -550,6 +578,10 @@ span {
 .footer .container .inner_container .copyright span + span {
   border-left: 1px solid #535353;
   padding-left: 10px;
+}
+
+.footer .container .inner_container .copyright span a:hover {
+  color: #237a8a;
 }
 
 .footer .container .inner_container .partners {

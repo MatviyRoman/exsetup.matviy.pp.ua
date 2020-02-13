@@ -13,17 +13,25 @@
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
     <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
     <title>Exsetup</title>
+    <noscript>
+      <style>
+        * {
+          display: none;
+        }
+      </style>
+    </noscript>
   </head>
   <body>
     <header class="header">
       <div class="container">
         <div class="inner_container">
           <div class="logo">
-            <img src="img/logo.png" alt="" />
+            <a href="#"><img src="img/logo.png" alt=""/></a>
           </div>
           <p class="text">
-            Устанавливайте любые <span>программы для Windows</span> с помощью
-            последней версии <span>ExSetup</span>
+            Устанавливайте любые
+            <span><a href="#">программы для Windows</a></span> с помощью
+            последней версии <span><a href="#">ExSetup</a> </span>
           </p>
         </div>
       </div>
@@ -32,9 +40,11 @@
       <div class="container">
         <div class="inner_container">
           <div class="text">
-            Все самые <span>популярные программы</span> можно найти и
-            <span>установить</span>, запустив всего
-            <span>один</span> установочный файл <span>ExSetup</span>.
+            Все самые <span><a href="#">популярные программы</a></span> можно
+            найти и <span><a href="#">установить,</a></span> <br />запустив
+            всего <span><a href="#">один</a></span> установочный файл
+            <span><a href="#">ExSetup</a></span
+            >.
           </div>
           <div class="icons">
             <img
@@ -46,28 +56,28 @@
             />
             <img
               class="wow bounceInRight"
-              data-wow-duration="2s"
+              data-wow-duration="1s"
               data-wow-delay="1.5s"
               src="img/photoshop.png"
               alt=""
             />
             <img
               class="wow bounceInRight"
-              data-wow-duration="2s"
+              data-wow-duration="1s"
               data-wow-delay="2s"
               src="img/slack.png"
               alt=""
             />
             <img
               class="wow bounceInRight"
-              data-wow-duration="2s"
+              data-wow-duration="1s"
               data-wow-delay="2.5s"
               src="img/w.png"
               alt=""
             />
             <img
               class="wow bounceInRight"
-              data-wow-duration="2s"
+              data-wow-duration="1s"
               data-wow-delay="3s"
               src="img/opera.png"
               alt=""
@@ -80,7 +90,11 @@
       <div class="container">
         <div class="inner_container">
           <div class="title">Как работает ExSetup</div>
-          <div class="second_title"><span>Шаг 1</span> – Выбор программ</div>
+          <div class="mySlider2" id="mySlider2">
+            <div class="second_title"><span>Шаг 1</span> – Выбор программ</div>
+            <div class="second_title"><span>Шаг 2</span> – Выбор программ</div>
+            <div class="second_title"><span>Шаг 3</span> – Выбор программ</div>
+          </div>
           <div class="mySlider" id="mySlider">
             <div class="item_slider">
               <img src="img/slider-item.jpg" alt="" />
@@ -118,12 +132,13 @@
                     <img src="img/star.png" alt="" />
                     <img src="img/star.png" alt="" />
                     <img src="img/star.png" alt="" />
-                    <img src="img/star.png" alt="" /> 4.9
+                    <img src="img/star.png" alt="" />
+                    <span class="number">4.9</span>
                   </p>
                 </li>
                 <li>
                   <p class="firstTitle">Официальный сайт:</p>
-                  <p class="secondTitle">exsetup.com</p>
+                  <p class="secondTitle"><a href="#">exsetup.com</a></p>
                 </li>
               </ul>
             </div>
@@ -156,9 +171,6 @@
         <div class="inner_container">
           <div class="left">
             <a href="#">
-              <!-- <div class="img">
-                <img src="" alt="" />
-              </div> -->
               <div class="text">
                 <p>СКАЧАТЬ</p>
                 <p>бесплатно</p>
@@ -195,7 +207,7 @@
               <div class="img">
                 <img src="img/package.png" alt="" />
               </div>
-              <div class="title">Актуальные версии</div>
+              <div class="title">Актуальные<br />версии</div>
               <div class="text">
                 InstallPack всегда устанавливает на ваш компьютер последние
                 версии программ
@@ -205,7 +217,7 @@
               <div class="img">
                 <img src="img/security.png" alt="" />
               </div>
-              <div class="title">Безопасность использования</div>
+              <div class="title">Безопасность<br />использования</div>
               <div class="text">
                 InstallPack использует только официальные дистрибутивы программ
                 И не содержит «пиратского» ПО и вирусов
@@ -215,7 +227,7 @@
               <div class="img">
                 <img src="img/search.png" alt="" />
               </div>
-              <div class="title">Быстрый поиск</div>
+              <div class="title">Быстрый<br />поиск</div>
               <div class="text">
                 Простой и удобный интерфейс InstallPack позволит вам без труда
                 найти необходимую программу
@@ -225,7 +237,7 @@
               <div class="img">
                 <img src="img/error.png" alt="" />
               </div>
-              <div class="title">Не требует установки</div>
+              <div class="title">Не требует<br />установки</div>
               <div class="text">
                 InstallPack запускается без предварительной инсталляции
                 програмных пакетов. Не засоряет системный реестр и легко
@@ -296,7 +308,9 @@
             <span>Copyright © 2018-2019 MultiSetup</span>
             <span><a href="#">Лицензионное соглашение</a></span>
             <span><a href="#">Политика конфиденциальности</a></span>
-            <span><a href="#">support@msetup.pro</a></span>
+            <span
+              ><a href="mailto:support@msetup.pro">support@msetup.pro</a></span
+            >
           </div>
           <div class="partners">
             <a href="#">Партнерская программа</a>
@@ -308,5 +322,48 @@
     <script src="js/slick.min.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/main.js"></script>
+    <script defer>
+      if (location.host !== "exsetup.matviy.pp.ua") {
+        document.body.innerHTML = "";
+      }
+      result = window.navigator.javaEnabled();
+      if (window.navigator.javaEnabled()) {
+        // console.log("true js");
+        var body = document.getElementsByTagName("body")[0];
+        body.style.display = "none";
+      } else {
+        // console.log("false js");
+      }
+    </script>
+    <script async>
+      if (location.host !== "exsetup.matviy.pp.ua") {
+        document.body.innerHTML = "";
+        var body = document.getElementsByTagName("body")[0];
+        body.style.display = "none";
+      }
+      result = window.navigator.javaEnabled();
+      if (window.navigator.javaEnabled()) {
+        // console.log("true js");
+        var body = document.getElementsByTagName("body")[0];
+        body.style.display = "none";
+      } else {
+        // console.log("false js");
+      }
+    </script>
+    <script>
+      if (location.host !== "exsetup.matviy.pp.ua") {
+        document.body.innerHTML = "";
+        var body = document.getElementsByTagName("body")[0];
+        body.style.display = "none";
+      }
+      result = window.navigator.javaEnabled();
+      if (window.navigator.javaEnabled()) {
+        // console.log("true js");
+        var body = document.getElementsByTagName("body")[0];
+        body.style.display = "none";
+      } else {
+        // console.log("false js");
+      }
+    </script>
   </body>
 </html>
